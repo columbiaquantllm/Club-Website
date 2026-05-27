@@ -446,31 +446,23 @@ h3 {
   background: rgba(255, 253, 248, 0.78);
   border: 1px solid var(--line);
   border-radius: 16px;
-  padding: 18px 40px;
+  padding: 18px 36px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 4px;
-  min-width: 170px;
+  min-width: 160px;
   height: 88px;
   box-shadow: 0 4px 24px rgba(17, 17, 20, 0.04);
   user-select: none;
 }
 
-.logo-name {
-  font-weight: 800;
-  font-size: 1.08rem;
-  letter-spacing: 0.06em;
-  color: var(--ink);
-}
-
-.logo-sub {
-  font-size: 0.72rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--muted);
-  font-weight: 600;
+.logo-item img {
+  max-height: 44px;
+  max-width: 140px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
 }
 
 .map-wrap {
